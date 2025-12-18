@@ -54,9 +54,9 @@
     megayeet = "/etc/nixos/dotfiles/scripts/megayeet.sh";
     sudo = "doas";
     fetch = "fastfetch";
-    sys = "doas vim /etc/nixos/configuration.nix";
+    sys = "vim /etc/nixos/configuration.nix";
     home = "vim /etc/nixos/home.nix";
-    flake = "doas vim /etc/nixos/flake.nix";
+    flake = "vim /etc/nixos/flake.nix";
     dots = "yazi /etc/nixos/dotfiles";
     scripts = "yazi /etc/nixos/dotfiles/scripts";
     clc = "clear";

@@ -102,6 +102,9 @@ programs = {
       user.name = "plastic-melter";
       user.email = "140357149+plastic-melter@users.noreply.github.com";
     };
+    extraConfig = {
+      safe.directory = "/etc/nixos";
+    };
   };
 
   neovim = {
@@ -332,12 +335,14 @@ home.packages = with pkgs; [
   arduino-cli # CLI arduino tools
   audacious # music player
   bolt-launcher # OSRS RuneLite launcher
+  drawio # flowchart/diagram tool
   firefox # the best web browser
   gimp # GNU image manipulation program
   grayjay # youtube frontend
   kdePackages.kcolorchooser # hex color tool GUI
   kdePackages.kdenlive # GUI video editor
   libreoffice-fresh # office app suite
+  moonlight-qt # desktop steaming / remote access
   mpv # simple video player
   obsidian # cross-platform notes program
   platformio # arduino TUI + utils

@@ -1,6 +1,6 @@
-# P1G8 NixOS Config
+# X13G3 (AMD) NixOS Config
 
-Backup and reproducible config for my personal [NixOS](https://nixos.org) system, currently configured for a ThinkPad [P1 Gen 8](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P1_Gen_8/ThinkPad_P1_Gen_8_Spec.pdf).
+Backup and reproducible config for my personal [NixOS](https://nixos.org) system, currently configured for a ThinkPad [X13 Gen 3 AMD](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X13_Gen_3_AMD/ThinkPad_X13_Gen_3_AMD_Spec.pdf).
 
 Config files for:
 - [Hyprland](https://hyprland.org) the coolest wayland compositor with extra goodies.

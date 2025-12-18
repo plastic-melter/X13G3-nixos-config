@@ -136,7 +136,6 @@ i18n = {
     enable = true;
     type = "fcitx5";
     fcitx5.addons = with pkgs; [
-      fcitx5-configtool
       fcitx5-mozc
       fcitx5-gtk
       fcitx5-nord
@@ -488,8 +487,10 @@ environment.systemPackages = with pkgs; [
   tmux # terminal multiplexer
   traceroute # traces network hops
   unzip # extracting .zip files
+  usbutils # handy USB utils like lsusb
   vim # the best text editor
   wget # network downloader
+  woeusb # writes ISO to drives nicer than dd
   
   # LIBRARIES
   libarchive # tools for tar, zip, etc.
