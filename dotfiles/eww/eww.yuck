@@ -1,0 +1,29 @@
+(include "./stats.yuck")
+(include "./hourly-chime.yuck")
+
+(defwindow greeting
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "0%"
+                      :width "877px"
+                      :height "632px"
+                      :anchor "center")
+  :stacking "overlay"
+  :exclusive false
+  :focusable false
+  (box :class "greeting-box"
+       :orientation "v"
+       :space-evenly false
+    (image :path greeting_image
+           :image-width 577
+           :image-height 5432)
+    (label :class "greeting-text"
+           :halign "center"
+           :text greeting_text)
+    (label :class "date-text"
+           :halign "center"
+           :text date_text)))
+
+(defvar greeting_image "/etc/nixos/dotfiles/images/greetings/clock.jpg")
+(defvar greeting_text "If you see this text: something ain't right, fix me")
+(defvar date_text "If you see this text: something ain't right, fix me")
