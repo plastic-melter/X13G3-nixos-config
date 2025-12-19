@@ -102,7 +102,7 @@ programs = {
       user.name = "plastic-melter";
       user.email = "140357149+plastic-melter@users.noreply.github.com";
     };
-    extraConfig = {
+    settings = {
       safe.directory = "/etc/nixos";
     };
   };
@@ -345,6 +345,7 @@ home.packages = with pkgs; [
   moonlight-qt # desktop steaming / remote access
   mpv # simple video player
   obsidian # cross-platform notes program
+  picoscope # pocket oscilloscope
   platformio # arduino TUI + utils
   prusa-slicer # 3DP slicer
   qbittorrent # peer-to-peer file sharing

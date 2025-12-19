@@ -315,6 +315,8 @@ services = {
     # NXP boards (Teensy 4.x bootloader)
     KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", ATTRS{idProduct}=="013*", MODE:="0666"
     SUBSYSTEMS=="usb", ATTRS{idVendor}=="1fc9", ATTRS{idProduct}=="013*", MODE:="0666"
+    # PicoScope
+    SUBSYSTEM=="usb", ATTR{idVendor}=="0ce9", MODE="0666"
   '';
 };
 
