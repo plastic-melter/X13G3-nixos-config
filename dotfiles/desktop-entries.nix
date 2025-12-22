@@ -1,7 +1,7 @@
 # Desktop Entry Definitions
 {
   # ============================================
-  # BROWSERS
+  # BROWSER PROFILES
   # ============================================
   
   firefox-personal = {
@@ -23,6 +23,17 @@
   # ============================================
   # UTILITIES
   # ============================================
+
+  picoscope = {
+    name = "picoscope";
+    genericName = "picoscope";
+    exec = "picoscope";
+    icon = "/etc/nixos/dotfiles/images/pico-logo.png";
+    terminal = false;
+    categories = [ "Utility" ];
+    comment = "PicoScope USB Oscilloscope";
+    type = "Application";
+  };
   
   hyprpicker = {
     name = "hyprpicker";

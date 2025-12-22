@@ -17,7 +17,12 @@ nix = {
   extraOptions = "experimental-features = nix-command flakes";
   settings = {
     trusted-users = [ "root" "joe" ];
-    substituters = ["https://hyprland.cachix.org"];
+    substituters = [
+      "https://hyprland.cachix.org"
+      "https://hyprland.cachix.org"
+      "https://nix-community.cachix.org"
+    ];
+    require-sigs = true;
     trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
     accept-flake-config = true;
   };
